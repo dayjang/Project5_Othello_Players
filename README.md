@@ -16,6 +16,6 @@ As a big fan of various board games like Othello, Go, Chess, I decided to create
 
 #### Step3: Compare the winning odds and computing time of each strategies 
 
-#### Step4: Train a deep q-learning algorithm player. 
-Apply Convolution Neural Network techniques to q-functions. 
+#### Step4: Train a deep q-learning algorithm player
+Apply Convolution Neural Network techniques to q-functions
 (Ongoing process...) 
