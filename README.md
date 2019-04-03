@@ -12,7 +12,7 @@ As a big fan of various board games like Othello, Go, Chess, I decided to create
 
 #### Step1: Set up board, black & white pieces and rules on python using class and functions 
 
-#### Step2: Apply algorithms to each players (random, local maximization, and minimax
+#### Step2: Apply algorithms to each players (random, local maximization, and minimax with depth=2,3,4,5,6..)
 
 #### Step3: Compare the winning odds and computing time of each strategies 
 
