@@ -1,6 +1,6 @@
 # Project5_Othello_Players
 
-Project 5 is the Passion Project and final project where all the choices belong to each individual student.
+Project 5 is the Passion Project (as well as final project) where all the choices belong to each individual student.
 
 As a big fan of various board games like Othello, Go, Chess, I decided to create my own AI Othello players using Python. I referred Paradigms of Artificial Intelligence Programming by Peter Norvig and many academic papers.
 
