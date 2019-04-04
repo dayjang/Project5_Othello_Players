@@ -1,7 +1,5 @@
 from Board_Play import * 
 
-
-
 players_dic = {'random': random_strategy, 'maximizer': maximizer(WeightMatrixScore), 'minimax_depth2': minimax_searcher(2,WeightMatrixScore) , 'minimax_depth3': minimax_searcher(3,WeightMatrixScore)  , 'minimax_depth4': minimax_searcher(4,WeightMatrixScore)  ,' minimax_depth5' : minimax_searcher(5,WeightMatrixScore) }
 
 
@@ -16,23 +14,39 @@ def ChoosePlayers():
 
 
 
-if __name__ == '__main__':
+def main(b,w)
 	try: 
-		b, w = ChoosePlayers()
+		# b, w = ChoosePlayers()
 		board, score = play(players_dic[b],players_dic[w])
  	except: 
  		"ERROR OCCURED"
  		"Please check you input players correctly"
+    
+    print('Final score:', score)
+    print(PrintBoard(board))
+    print('Winner is..?')
+
+    if score>0:
+        print('BLACK')
+        return 'BLACK'
+    elif score<0:
+        print('WHITE')
+        return 'WHITE'
+    else:
+        print('TIE')
+        return 'TIE'
 
 
-def simulation(n_simul, black_strat_input, white_strat_input):
+
+def simulation(n_simul):
     print('start!')
-    black, white = options[black_strat_input], options[white_strat_input]
+    b, w = ChoosePlayers()
     result=[]
+    
     start_time = time.time()
 
     for i in range(n_simul):
-        result.append(main_new(black, white))
+        result.append(main_new(b, w))
 
     black_win = np.sum(np.array(result)=='BLACK')/n_simul
     white_win = np.sum(np.array(result)=='WHITE')/n_simul
@@ -40,11 +54,18 @@ def simulation(n_simul, black_strat_input, white_strat_input):
     print('black_strategy: {}, white_strategy: {}'.format(black_strat_input, white_strat_input))
 
     elapsed_time = time.time() - start_time
-    # elapsed_time2 = time.strftime("%H:%M:%S", time.gmtime(elapsed_time/n_simul))
+
     print('#_of_simulation:{}, black_win_%: {}, white_win_%: {}, tie_%: {} , elapsed_time_tot: {}'.format(n_simul,black_win,white_win,tie,elapsed_time))
 
     return n_simul,black_win,white_win,tie,elapsed_time
 
 
-simulation(1, 'max-weighted-diff', 'ab-weighted-diff5')
+
+if __name__ == '__main__':
+    n_simulation=int(input(Number of simulation of the game))
+    simulation(n_simulation)
+
+
+
+
 
