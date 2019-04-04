@@ -1,6 +1,6 @@
 # Project5_Othello_Players
 
-Project 5 is the Passion Project and final project where all the choices belong to each individual student.
+Project 5 is the Passion Project (as well as final project) where all the choices belong to each individual student.
 
 As a big fan of various board games like Othello, Go, Chess, I decided to create my own AI Othello players using Python. I referred Paradigms of Artificial Intelligence Programming by Peter Norvig and many academic papers.
 
@@ -16,15 +16,6 @@ As a big fan of various board games like Othello, Go, Chess, I decided to create
 
 #### Step3: Compare the winning odds and computing time of each strategies 
 
-#### Step4: Train a deep q-learning algorithm player. 
-Apply Convolution Neural Network techniques to q-functions. 
+#### Step4: Train a deep q-learning algorithm player
+Apply Convolution Neural Network techniques to q-functions
 (Ongoing process...) 
-
-
-Hey Gina,
-I bought a sql Udemy course!(which looks very helpful)
-https://www.udemy.com/master-sql-for-data-science
-ID: dayoung.jang@icloud.com
-Pw: metis28
-If you want to take this course, use my id! 
-<3 
