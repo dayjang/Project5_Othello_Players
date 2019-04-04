@@ -19,3 +19,12 @@ As a big fan of various board games like Othello, Go, Chess, I decided to create
 #### Step4: Train a deep q-learning algorithm player. 
 Apply Convolution Neural Network techniques to q-functions. 
 (Ongoing process...) 
+
+
+Hey Gina,
+I bought a sql Udemy course!(which looks very helpful)
+https://www.udemy.com/master-sql-for-data-science
+ID: dayoung.jang@icloud.com
+Pw: metis28
+If you want to take this course, use my id! 
+<3 
